@@ -1,0 +1,400 @@
+Microsoft Windows [版本 10.0.19045.5011]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\admin\Desktop\kedaxunfei># 设置清华源
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\admin\Desktop\kedaxunfei>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+Writing to C:\Users\admin\AppData\Roaming\pip\pip.ini
+
+C:\Users\admin\Desktop\kedaxunfei>pip install jupyter notebook
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: jupyter in f:\anaconda3\lib\site-packages (1.0.0)
+Requirement already satisfied: notebook in f:\anaconda3\lib\site-packages (6.3.0)
+Requirement already satisfied: ipykernel in c:\users\admin\appdata\roaming\python\python38\site-packages (from jupyter) (6.25.2)
+Requirement already satisfied: nbconvert in f:\anaconda3\lib\site-packages (from jupyter) (6.0.7)
+Requirement already satisfied: qtconsole in f:\anaconda3\lib\site-packages (from jupyter) (5.0.3)
+Requirement already satisfied: ipywidgets in f:\anaconda3\lib\site-packages (from jupyter) (7.6.3)
+Requirement already satisfied: jupyter-console in f:\anaconda3\lib\site-packages (from jupyter) (6.4.0)
+Requirement already satisfied: ipython-genutils in f:\anaconda3\lib\site-packages (from notebook) (0.2.0)
+Requirement already satisfied: jinja2 in f:\anaconda3\lib\site-packages (from notebook) (3.1.4)
+Requirement already satisfied: Send2Trash>=1.5.0 in f:\anaconda3\lib\site-packages (from notebook) (1.5.0)
+Requirement already satisfied: prometheus-client in f:\anaconda3\lib\site-packages (from notebook) (0.10.1)
+Requirement already satisfied: argon2-cffi in f:\anaconda3\lib\site-packages (from notebook) (20.1.0)
+Requirement already satisfied: tornado>=6.1 in f:\anaconda3\lib\site-packages (from notebook) (6.1)
+Requirement already satisfied: jupyter-client>=5.3.4 in f:\anaconda3\lib\site-packages (from notebook) (6.1.12)
+Requirement already satisfied: terminado>=0.8.3 in f:\anaconda3\lib\site-packages (from notebook) (0.9.4)
+Requirement already satisfied: jupyter-core>=4.6.1 in c:\users\admin\appdata\roaming\python\python38\site-packages (from notebook) (5.3.2)
+Requirement already satisfied: pyzmq>=17 in f:\anaconda3\lib\site-packages (from notebook) (20.0.0)
+Requirement already satisfied: nbformat in f:\anaconda3\lib\site-packages (from notebook) (5.1.3)
+Requirement already satisfied: traitlets>=4.2.1 in f:\anaconda3\lib\site-packages (from notebook) (5.14.3)
+Requirement already satisfied: python-dateutil>=2.1 in f:\anaconda3\lib\site-packages (from jupyter-client>=5.3.4->notebook) (2.9.0.post0)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\admin\appdata\roaming\python\python38\site-packages (from jupyter-core>=4.6.1->notebook) (3.11.0)
+Requirement already satisfied: pywin32>=300 in c:\users\admin\appdata\roaming\python\python38\site-packages (from jupyter-core>=4.6.1->notebook) (306)
+Requirement already satisfied: six>=1.5 in f:\anaconda3\lib\site-packages (from python-dateutil>=2.1->jupyter-client>=5.3.4->notebook) (1.16.0)
+Requirement already satisfied: pywinpty>=0.5 in f:\anaconda3\lib\site-packages (from terminado>=0.8.3->notebook) (0.5.7)
+Requirement already satisfied: cffi>=1.0.0 in f:\anaconda3\lib\site-packages (from argon2-cffi->notebook) (1.14.5)
+Requirement already satisfied: pycparser in f:\anaconda3\lib\site-packages (from cffi>=1.0.0->argon2-cffi->notebook) (2.20)
+Requirement already satisfied: debugpy>=1.6.5 in c:\users\admin\appdata\roaming\python\python38\site-packages (from ipykernel->jupyter) (1.8.0)
+Requirement already satisfied: psutil in f:\anaconda3\lib\site-packages (from ipykernel->jupyter) (5.8.0)
+Requirement already satisfied: comm>=0.1.1 in c:\users\admin\appdata\roaming\python\python38\site-packages (from ipykernel->jupyter) (0.1.4)
+Requirement already satisfied: matplotlib-inline>=0.1 in f:\anaconda3\lib\site-packages (from ipykernel->jupyter) (0.1.7)
+Requirement already satisfied: packaging in f:\anaconda3\lib\site-packages (from ipykernel->jupyter) (24.1)
+Requirement already satisfied: nest-asyncio in f:\anaconda3\lib\site-packages (from ipykernel->jupyter) (1.6.0)
+Requirement already satisfied: ipython>=7.23.1 in f:\anaconda3\lib\site-packages (from ipykernel->jupyter) (8.12.3)
+Requirement already satisfied: backcall in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.2.0)
+Requirement already satisfied: decorator in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (5.0.6)
+Requirement already satisfied: stack-data in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.6.3)
+Requirement already satisfied: jedi>=0.16 in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.17.2)
+Requirement already satisfied: typing-extensions in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (4.11.0)
+Requirement already satisfied: colorama in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.4.6)
+Requirement already satisfied: pickleshare in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.7.5)
+Requirement already satisfied: prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30 in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (3.0.47)
+Requirement already satisfied: pygments>=2.4.0 in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (2.18.0)
+Requirement already satisfied: parso<0.8.0,>=0.7.0 in f:\anaconda3\lib\site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyter) (0.7.0)
+Requirement already satisfied: wcwidth in f:\anaconda3\lib\site-packages (from prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30->ipython>=7.23.1->ipykernel->jupyter) (0.2.5)
+Requirement already satisfied: widgetsnbextension~=3.5.0 in f:\anaconda3\lib\site-packages (from ipywidgets->jupyter) (3.5.1)
+Requirement already satisfied: jupyterlab-widgets>=1.0.0 in f:\anaconda3\lib\site-packages (from ipywidgets->jupyter) (1.0.0)
+Requirement already satisfied: jsonschema!=2.5.0,>=2.4 in f:\anaconda3\lib\site-packages (from nbformat->notebook) (4.23.0)
+Requirement already satisfied: importlib-resources>=1.4.0 in f:\anaconda3\lib\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat->notebook) (6.4.0)
+Requirement already satisfied: pkgutil-resolve-name>=1.3.10 in f:\anaconda3\lib\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat->notebook) (1.3.10)
+Requirement already satisfied: rpds-py>=0.7.1 in f:\anaconda3\lib\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat->notebook) (0.20.0)
+Requirement already satisfied: referencing>=0.28.4 in f:\anaconda3\lib\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat->notebook) (0.35.1)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in f:\anaconda3\lib\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat->notebook) (2023.12.1)
+Requirement already satisfied: attrs>=22.2.0 in f:\anaconda3\lib\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat->notebook) (24.2.0)
+Requirement already satisfied: zipp>=3.1.0 in f:\anaconda3\lib\site-packages (from importlib-resources>=1.4.0->jsonschema!=2.5.0,>=2.4->nbformat->notebook) (3.4.1)
+Requirement already satisfied: MarkupSafe>=2.0 in f:\anaconda3\lib\site-packages (from jinja2->notebook) (2.1.5)
+Requirement already satisfied: mistune<2,>=0.8.1 in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (0.8.4)
+Requirement already satisfied: testpath in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (0.4.4)
+Requirement already satisfied: nbclient<0.6.0,>=0.5.0 in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (0.5.3)
+Requirement already satisfied: jupyterlab-pygments in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (0.1.2)
+Requirement already satisfied: defusedxml in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (0.7.1)
+Requirement already satisfied: entrypoints>=0.2.2 in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (0.3)
+Requirement already satisfied: pandocfilters>=1.4.1 in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (1.4.3)
+Requirement already satisfied: bleach in f:\anaconda3\lib\site-packages (from nbconvert->jupyter) (3.3.0)
+Requirement already satisfied: async-generator in f:\anaconda3\lib\site-packages (from nbclient<0.6.0,>=0.5.0->nbconvert->jupyter) (1.10)
+Requirement already satisfied: webencodings in f:\anaconda3\lib\site-packages (from bleach->nbconvert->jupyter) (0.5.1)
+Requirement already satisfied: qtpy in f:\anaconda3\lib\site-packages (from qtconsole->jupyter) (1.9.0)
+Requirement already satisfied: executing>=1.2.0 in f:\anaconda3\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (2.0.1)
+Requirement already satisfied: pure-eval in f:\anaconda3\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (0.2.2)
+Requirement already satisfied: asttokens>=2.1.0 in f:\anaconda3\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (2.4.1)
+
+C:\Users\admin\Desktop\kedaxunfei>conda update notebook jupyter_server
+Traceback (most recent call last):
+  File "F:\Anaconda3\lib\site-packages\conda\gateways\connection\adapters\s3.py", line 12, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Anaconda3\lib\site-packages\conda\exceptions.py", line 1129, in __call__
+    return func(*args, **kwargs)
+  File "F:\Anaconda3\lib\site-packages\conda\cli\main.py", line 86, in main_subshell
+    exit_code = do_call(args, p)
+  File "F:\Anaconda3\lib\site-packages\conda\cli\conda_argparse.py", line 91, in do_call
+    module = import_module(relative_mod, __name__.rsplit('.', 1)[0])
+  File "F:\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "F:\Anaconda3\lib\site-packages\conda\cli\main_update.py", line 8, in <module>
+    from .install import install
+  File "F:\Anaconda3\lib\site-packages\conda\cli\install.py", line 18, in <module>
+    from ..core.index import calculate_channel_urls, get_index
+  File "F:\Anaconda3\lib\site-packages\conda\core\index.py", line 19, in <module>
+    from .package_cache_data import PackageCacheData
+  File "F:\Anaconda3\lib\site-packages\conda\core\package_cache_data.py", line 21, in <module>
+    from .path_actions import CacheUrlAction, ExtractPackageAction
+  File "F:\Anaconda3\lib\site-packages\conda\core\path_actions.py", line 34, in <module>
+    from ..gateways.connection.download import download
+  File "F:\Anaconda3\lib\site-packages\conda\gateways\connection\download.py", line 14, in <module>
+    from .session import CondaSession
+  File "F:\Anaconda3\lib\site-packages\conda\gateways\connection\session.py", line 13, in <module>
+    from .adapters.s3 import S3Adapter
+  File "F:\Anaconda3\lib\site-packages\conda\gateways\connection\adapters\s3.py", line 16, in <module>
+    import boto
+  File "F:\Anaconda3\lib\site-packages\boto\__init__.py", line 27, in <module>
+    from boto.pyami.config import Config, BotoConfigLocations
+  File "F:\Anaconda3\lib\site-packages\boto\pyami\config.py", line 29, in <module>
+  File "F:\Anaconda3\lib\site-packages\boto\compat.py", line 49, in <module>
+    from boto.vendored import six
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 914, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1342, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1314, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1469, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 101, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 93, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 87, in _path_stat
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Anaconda3\Scripts\conda-script.py", line 12, in <module>
+    sys.exit(main())
+  File "F:\Anaconda3\lib\site-packages\conda\cli\main.py", line 129, in main
+    return conda_exception_handler(main, *args, **kwargs)
+  File "F:\Anaconda3\lib\site-packages\conda\exceptions.py", line 1429, in conda_exception_handler
+    return_value = exception_handler(func, *args, **kwargs)
+  File "F:\Anaconda3\lib\site-packages\conda\exceptions.py", line 1132, in __call__
+    return self.handle_exception(exc_val, exc_tb)
+  File "F:\Anaconda3\lib\site-packages\conda\exceptions.py", line 1168, in handle_exception
+    self._print_conda_exception(CondaError("KeyboardInterrupt"), _format_exc())
+  File "F:\Anaconda3\lib\site-packages\conda\exceptions.py", line 1119, in _format_exc
+    formatted_exception = format_exception(exc_type, exc_val, exc_tb)
+  File "F:\Anaconda3\lib\traceback.py", line 120, in format_exception
+    return list(TracebackException(
+  File "F:\Anaconda3\lib\traceback.py", line 508, in __init__
+    self.stack = StackSummary.extract(
+  File "F:\Anaconda3\lib\traceback.py", line 366, in extract
+    f.line
+  File "F:\Anaconda3\lib\traceback.py", line 288, in line
+    self._line = linecache.getline(self.filename, self.lineno).strip()
+  File "F:\Anaconda3\lib\linecache.py", line 16, in getline
+    lines = getlines(filename, module_globals)
+  File "F:\Anaconda3\lib\linecache.py", line 47, in getlines
+    return updatecache(filename, module_globals)
+  File "F:\Anaconda3\lib\linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+  File "F:\Anaconda3\lib\tokenize.py", line 392, in open
+KeyboardInterrupt
+^C终止批处理操作吗(Y/N)? y
+
+C:\Users\admin\Desktop\kedaxunfei>pip install --upgrade notebook jupyter_server
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: notebook in f:\anaconda3\lib\site-packages (6.3.0)
+Collecting notebook
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/46/77/53732fbf48196af9e51c2a61833471021c1d77d335d57b96ee3588c0c53d/notebook-7.2.2-py3-none-any.whl (5.0 MB)
+     |████████████████████████████████| 5.0 MB 271 kB/s
+Requirement already satisfied: jupyter_server in f:\anaconda3\lib\site-packages (1.4.1)
+Collecting jupyter_server
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/57/e1/085edea6187a127ca8ea053eb01f4e1792d778b4d192c74d32eb6730fed6/jupyter_server-2.14.2-py3-none-any.whl (383 kB)
+     |████████████████████████████████| 383 kB 6.4 MB/s
+Collecting nbconvert>=6.4.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b8/bb/bb5b6a515d1584aa2fd89965b11db6632e4bdc69495a52374bcc36e56cfa/nbconvert-7.16.4-py3-none-any.whl (257 kB)
+     |████████████████████████████████| 257 kB ...
+Collecting send2trash>=1.8.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/40/b0/4562db6223154aa4e22f939003cb92514c79f3d4dccca3444253fd17f902/Send2Trash-1.8.3-py3-none-any.whl (18 kB)
+Collecting pyzmq>=24
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f0/51/1f2b47c8d8fb85c07f088e21df6364b8b5e8298e75bb23ea0e65340ebd82/pyzmq-26.2.0-cp38-cp38-win_amd64.whl (642 kB)
+     |████████████████████████████████| 642 kB 6.4 MB/s
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in c:\users\admin\appdata\roaming\python\python38\site-packages (from jupyter_server) (5.3.2)
+Collecting jupyter-server-terminals>=0.4.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/07/2d/2b32cdbe8d2a602f697a649798554e4f072115438e92249624e532e8aca6/jupyter_server_terminals-0.5.3-py3-none-any.whl (13 kB)
+Collecting pywinpty>=2.0.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f1/82/90f8750423cba4b9b6c842df227609fb60704482d7abf6dd47e2babc055a/pywinpty-2.0.14.tar.gz (27 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+    Preparing wheel metadata ... done
+Collecting tornado>=6.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d9/2f/3f2f05e84a7aff787a96d5fb06821323feb370fe0baed4db6ea7b1088f32/tornado-6.4.1-cp38-abi3-win_amd64.whl (438 kB)
+     |████████████████████████████████| 438 kB 1.3 MB/s
+Requirement already satisfied: jinja2>=3.0.3 in f:\anaconda3\lib\site-packages (from jupyter_server) (3.1.4)
+Collecting argon2-cffi>=21.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a4/6a/e8a041599e78b6b3752da48000b14c8d1e8a04ded09c88c714ba047f34f5/argon2_cffi-23.1.0-py3-none-any.whl (15 kB)
+Requirement already satisfied: terminado>=0.8.3 in f:\anaconda3\lib\site-packages (from jupyter_server) (0.9.4)
+Requirement already satisfied: prometheus-client>=0.9 in f:\anaconda3\lib\site-packages (from jupyter_server) (0.10.1)
+Requirement already satisfied: packaging>=22.0 in f:\anaconda3\lib\site-packages (from jupyter_server) (24.1)
+Requirement already satisfied: traitlets>=5.6.0 in f:\anaconda3\lib\site-packages (from jupyter_server) (5.14.3)
+Requirement already satisfied: anyio>=3.1.0 in f:\anaconda3\lib\site-packages (from jupyter_server) (4.4.0)
+Requirement already satisfied: websocket-client>=1.7 in f:\anaconda3\lib\site-packages (from jupyter_server) (1.8.0)
+Requirement already satisfied: overrides>=5.0 in f:\anaconda3\lib\site-packages (from jupyter_server) (7.7.0)
+Collecting jupyter-client>=7.4.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/11/85/b0394e0b6fcccd2c1eeefc230978a6f8cb0c5df1e4cd3e7625735a0d7d1e/jupyter_client-8.6.3-py3-none-any.whl (106 kB)
+     |████████████████████████████████| 106 kB 6.4 MB/s
+Collecting jupyter-events>=0.9.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a5/94/059180ea70a9a326e1815176b2370da56376da347a796f8c4f0b830208ef/jupyter_events-0.10.0-py3-none-any.whl (18 kB)
+Collecting nbformat>=5.3.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl (78 kB)
+     |████████████████████████████████| 78 kB 5.5 MB/s
+Requirement already satisfied: sniffio>=1.1 in f:\anaconda3\lib\site-packages (from anyio>=3.1.0->jupyter_server) (1.3.1)
+Requirement already satisfied: idna>=2.8 in f:\anaconda3\lib\site-packages (from anyio>=3.1.0->jupyter_server) (3.7)
+Requirement already satisfied: typing-extensions>=4.1 in f:\anaconda3\lib\site-packages (from anyio>=3.1.0->jupyter_server) (4.11.0)
+Requirement already satisfied: exceptiongroup>=1.0.2 in f:\anaconda3\lib\site-packages (from anyio>=3.1.0->jupyter_server) (1.2.2)
+Collecting argon2-cffi-bindings
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/37/2c/e34e47c7dee97ba6f01a6203e0383e15b60fb85d78ac9a15cd066f6fe28b/argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl (30 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in f:\anaconda3\lib\site-packages (from jinja2>=3.0.3->jupyter_server) (2.1.5)
+Requirement already satisfied: python-dateutil>=2.8.2 in f:\anaconda3\lib\site-packages (from jupyter-client>=7.4.4->jupyter_server) (2.9.0.post0)
+Requirement already satisfied: importlib-metadata>=4.8.3 in f:\anaconda3\lib\site-packages (from jupyter-client>=7.4.4->jupyter_server) (7.1.0)
+Requirement already satisfied: zipp>=0.5 in f:\anaconda3\lib\site-packages (from importlib-metadata>=4.8.3->jupyter-client>=7.4.4->jupyter_server) (3.4.1)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\admin\appdata\roaming\python\python38\site-packages (from jupyter-core!=5.0.*,>=4.12->jupyter_server) (3.11.0)
+Requirement already satisfied: pywin32>=300 in c:\users\admin\appdata\roaming\python\python38\site-packages (from jupyter-core!=5.0.*,>=4.12->jupyter_server) (306)
+Collecting rfc3986-validator>=0.1.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/9e/51/17023c0f8f1869d8806b979a2bffa3f861f26a3f1a66b094288323fba52f/rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Requirement already satisfied: jsonschema[format-nongpl]>=4.18.0 in f:\anaconda3\lib\site-packages (from jupyter-events>=0.9.0->jupyter_server) (4.23.0)
+Requirement already satisfied: pyyaml>=5.3 in f:\anaconda3\lib\site-packages (from jupyter-events>=0.9.0->jupyter_server) (6.0.2)
+Requirement already satisfied: rfc3339-validator in f:\anaconda3\lib\site-packages (from jupyter-events>=0.9.0->jupyter_server) (0.1.4)
+Requirement already satisfied: referencing in f:\anaconda3\lib\site-packages (from jupyter-events>=0.9.0->jupyter_server) (0.35.1)
+Collecting python-json-logger>=2.0.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/35/a6/145655273568ee78a581e734cf35beb9e33a370b29c5d3c8fee3744de29f/python_json_logger-2.0.7-py3-none-any.whl (8.1 kB)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in f:\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter_server) (2023.12.1)
+Requirement already satisfied: attrs>=22.2.0 in f:\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter_server) (24.2.0)
+Requirement already satisfied: importlib-resources>=1.4.0 in f:\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter_server) (6.4.0)
+Requirement already satisfied: rpds-py>=0.7.1 in f:\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter_server) (0.20.0)
+Requirement already satisfied: pkgutil-resolve-name>=1.3.10 in f:\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter_server) (1.3.10)
+Collecting fqdn
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cf/58/8acf1b3e91c58313ce5cb67df61001fc9dcd21be4fadb76c1a2d540e09ed/fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Collecting isoduration
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7b/55/e5326141505c5d5e34c5e0935d2908a74e4561eca44108fbfb9c13d2911a/isoduration-20.11.0-py3-none-any.whl (11 kB)
+Collecting webcolors>=24.6.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f0/33/12020ba99beaff91682b28dc0bbf0345bbc3244a4afbae7644e4fa348f23/webcolors-24.8.0-py3-none-any.whl (15 kB)
+Collecting uri-template
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e7/00/3fca040d7cf8a32776d3d81a00c8ee7457e00f80c649f1e4a863c8321ae9/uri_template-1.3.0-py3-none-any.whl (11 kB)
+Requirement already satisfied: jsonpointer>1.13 in f:\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter_server) (3.0.0)
+Collecting mistune<4,>=2.0.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f0/74/c95adcdf032956d9ef6c89a9b8a5152bf73915f8c633f3e3d88d06bd699c/mistune-3.0.2-py3-none-any.whl (47 kB)
+     |████████████████████████████████| 47 kB 2.2 MB/s
+Requirement already satisfied: pygments>=2.4.1 in f:\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter_server) (2.18.0)
+Requirement already satisfied: nbclient>=0.5.0 in f:\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter_server) (0.5.3)
+Requirement already satisfied: jupyterlab-pygments in f:\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter_server) (0.1.2)
+Requirement already satisfied: defusedxml in f:\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter_server) (0.7.1)
+Requirement already satisfied: bleach!=5.0.0 in f:\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter_server) (3.3.0)
+Requirement already satisfied: pandocfilters>=1.4.1 in f:\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter_server) (1.4.3)
+Requirement already satisfied: beautifulsoup4 in f:\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter_server) (4.9.3)
+Collecting tinycss2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e6/34/ebdc18bae6aa14fbee1a08b63c015c72b64868ff7dae68808ab500c492e2/tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Requirement already satisfied: six>=1.9.0 in f:\anaconda3\lib\site-packages (from bleach!=5.0.0->nbconvert>=6.4.4->jupyter_server) (1.16.0)
+Requirement already satisfied: webencodings in f:\anaconda3\lib\site-packages (from bleach!=5.0.0->nbconvert>=6.4.4->jupyter_server) (0.5.1)
+Requirement already satisfied: nest-asyncio in f:\anaconda3\lib\site-packages (from nbclient>=0.5.0->nbconvert>=6.4.4->jupyter_server) (1.6.0)
+Requirement already satisfied: async-generator in f:\anaconda3\lib\site-packages (from nbclient>=0.5.0->nbconvert>=6.4.4->jupyter_server) (1.10)
+Collecting fastjsonschema>=2.15
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6d/ca/086311cdfc017ec964b2436fe0c98c1f4efcb7e4c328956a22456e497655/fastjsonschema-2.20.0-py3-none-any.whl (23 kB)
+Collecting jupyterlab<4.3,>=4.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f0/04/853abc46fef36afd4e5f9a4fd1fbc1b477f910a29bb71711b6653098b703/jupyterlab-4.2.6-py3-none-any.whl (11.6 MB)
+     |████████████████████████████████| 11.6 MB ...
+Collecting jupyterlab-server<3,>=2.27.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/54/09/2032e7d15c544a0e3cd831c51d77a8ca57f7555b2e1b2922142eddb02a84/jupyterlab_server-2.27.3-py3-none-any.whl (59 kB)
+     |████████████████████████████████| 59 kB ...
+Collecting notebook-shim<0.3,>=0.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f9/33/bd5b9137445ea4b680023eb0469b2bb969d61303dedb2aac6560ff3d14a1/notebook_shim-0.2.4-py3-none-any.whl (13 kB)
+Collecting jupyter-lsp>=2.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/07/e0/7bd7cff65594fd9936e2f9385701e44574fc7d721331ff676ce440b14100/jupyter_lsp-2.2.5-py3-none-any.whl (69 kB)
+     |████████████████████████████████| 69 kB 3.6 MB/s
+Collecting async-lru>=1.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fa/9f/3c3503693386c4b0f245eaf5ca6198e3b28879ca0a40bde6b0e319793453/async_lru-2.0.4-py3-none-any.whl (6.1 kB)
+Requirement already satisfied: httpx>=0.25.0 in f:\anaconda3\lib\site-packages (from jupyterlab<4.3,>=4.2.0->notebook) (0.27.0)
+Requirement already satisfied: ipykernel>=6.5.0 in c:\users\admin\appdata\roaming\python\python38\site-packages (from jupyterlab<4.3,>=4.2.0->notebook) (6.25.2)
+Requirement already satisfied: tomli>=1.2.2 in f:\anaconda3\lib\site-packages (from jupyterlab<4.3,>=4.2.0->notebook) (2.0.1)
+Requirement already satisfied: setuptools>=40.1.0 in f:\anaconda3\lib\site-packages (from jupyterlab<4.3,>=4.2.0->notebook) (52.0.0.post20210125)
+Requirement already satisfied: httpcore==1.* in f:\anaconda3\lib\site-packages (from httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook) (1.0.5)
+Requirement already satisfied: certifi in f:\anaconda3\lib\site-packages (from httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook) (2024.7.4)
+Requirement already satisfied: h11<0.15,>=0.13 in f:\anaconda3\lib\site-packages (from httpcore==1.*->httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook) (0.14.0)
+Requirement already satisfied: matplotlib-inline>=0.1 in f:\anaconda3\lib\site-packages (from ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.1.7)
+Requirement already satisfied: ipython>=7.23.1 in f:\anaconda3\lib\site-packages (from ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (8.12.3)
+Requirement already satisfied: psutil in f:\anaconda3\lib\site-packages (from ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (5.8.0)
+Requirement already satisfied: comm>=0.1.1 in c:\users\admin\appdata\roaming\python\python38\site-packages (from ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.1.4)
+Requirement already satisfied: debugpy>=1.6.5 in c:\users\admin\appdata\roaming\python\python38\site-packages (from ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (1.8.0)
+Requirement already satisfied: stack-data in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.6.3)
+Requirement already satisfied: jedi>=0.16 in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.17.2)
+Requirement already satisfied: prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30 in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (3.0.47)
+Requirement already satisfied: colorama in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.4.6)
+Requirement already satisfied: backcall in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.2.0)
+Requirement already satisfied: decorator in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (5.0.6)
+Requirement already satisfied: pickleshare in f:\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.7.5)
+Requirement already satisfied: parso<0.8.0,>=0.7.0 in f:\anaconda3\lib\site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.7.0)
+Requirement already satisfied: json5>=0.9.0 in f:\anaconda3\lib\site-packages (from jupyterlab-server<3,>=2.27.1->notebook) (0.9.5)
+Collecting babel>=2.10
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ed/20/bc79bc575ba2e2a7f70e8a1155618bb1301eaa5132a8271373a6903f73f8/babel-2.16.0-py3-none-any.whl (9.6 MB)
+     |████████████████████████████████| 9.6 MB 6.4 MB/s
+Requirement already satisfied: requests>=2.31 in f:\anaconda3\lib\site-packages (from jupyterlab-server<3,>=2.27.1->notebook) (2.32.3)
+Requirement already satisfied: pytz>=2015.7 in f:\anaconda3\lib\site-packages (from babel>=2.10->jupyterlab-server<3,>=2.27.1->notebook) (2021.1)
+Requirement already satisfied: wcwidth in f:\anaconda3\lib\site-packages (from prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30->ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.2.5)
+Requirement already satisfied: urllib3<3,>=1.21.1 in f:\anaconda3\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->notebook) (2.2.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in f:\anaconda3\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->notebook) (3.3.2)
+Requirement already satisfied: cffi>=1.0.1 in f:\anaconda3\lib\site-packages (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter_server) (1.14.5)
+Requirement already satisfied: pycparser in f:\anaconda3\lib\site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter_server) (2.20)
+Requirement already satisfied: soupsieve>1.2 in f:\anaconda3\lib\site-packages (from beautifulsoup4->nbconvert>=6.4.4->jupyter_server) (2.2.1)
+Collecting arrow>=0.15.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f8/ed/e97229a566617f2ae958a6b13e7cc0f585470eac730a73e9e82c32a3cdd2/arrow-1.3.0-py3-none-any.whl (66 kB)
+     |████████████████████████████████| 66 kB 4.5 MB/s
+Collecting types-python-dateutil>=2.8.10
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/35/d6/ba5f61958f358028f2e2ba1b8e225b8e263053bd57d3a79e2d2db64c807b/types_python_dateutil-2.9.0.20241003-py3-none-any.whl (9.7 kB)
+Requirement already satisfied: executing>=1.2.0 in f:\anaconda3\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (2.0.1)
+Requirement already satisfied: asttokens>=2.1.0 in f:\anaconda3\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (2.4.1)
+Requirement already satisfied: pure-eval in f:\anaconda3\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel>=6.5.0->jupyterlab<4.3,>=4.2.0->notebook) (0.2.2)
+Building wheels for collected packages: pywinpty
+  Building wheel for pywinpty (PEP 517) ... done
+  Created wheel for pywinpty: filename=pywinpty-2.0.14-cp38-none-win_amd64.whl size=216103 sha256=e10050a411c2a69fe32ce3956b76e7f7a8ae283c73cb49d0dcd1c30720aef6c2
+  Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\93\59\84\43b359e3fdff0b0b6a6a622e59621c7ab95e0f581b34771283
+Successfully built pywinpty
+Installing collected packages: types-python-dateutil, tornado, pyzmq, fastjsonschema, arrow, webcolors, uri-template, rfc3986-validator, pywinpty, nbformat, jupyter-client, isodura
+tion, fqdn, tinycss2, python-json-logger, mistune, argon2-cffi-bindings, send2trash, nbconvert, jupyter-server-terminals, jupyter-events, argon2-cffi, jupyter-server, babel, notebook-shim, jupyterlab-server, jupyter-lsp, async-lru, jupyterlab, notebook
+  Attempting uninstall: tornado
+    Found existing installation: tornado 6.1
+    Uninstalling tornado-6.1:
+      Successfully uninstalled tornado-6.1
+  Attempting uninstall: pyzmq
+    Found existing installation: pyzmq 20.0.0
+    Uninstalling pyzmq-20.0.0:
+      Successfully uninstalled pyzmq-20.0.0
+  Attempting uninstall: pywinpty
+    Found existing installation: pywinpty 0.5.7
+    Uninstalling pywinpty-0.5.7:
+      Successfully uninstalled pywinpty-0.5.7
+  Attempting uninstall: nbformat
+    Found existing installation: nbformat 5.1.3
+    Uninstalling nbformat-5.1.3:
+      Successfully uninstalled nbformat-5.1.3
+  Attempting uninstall: jupyter-client
+    Found existing installation: jupyter-client 6.1.12
+    Uninstalling jupyter-client-6.1.12:
+      Successfully uninstalled jupyter-client-6.1.12
+  Attempting uninstall: mistune
+    Found existing installation: mistune 0.8.4
+    Uninstalling mistune-0.8.4:
+      Successfully uninstalled mistune-0.8.4
+  Attempting uninstall: send2trash
+    Found existing installation: Send2Trash 1.5.0
+    Uninstalling Send2Trash-1.5.0:
+      Successfully uninstalled Send2Trash-1.5.0
+  Attempting uninstall: nbconvert
+    Found existing installation: nbconvert 6.0.7
+    Uninstalling nbconvert-6.0.7:
+      Successfully uninstalled nbconvert-6.0.7
+  Attempting uninstall: argon2-cffi
+    Found existing installation: argon2-cffi 20.1.0
+    Uninstalling argon2-cffi-20.1.0:
+      Successfully uninstalled argon2-cffi-20.1.0
+  Attempting uninstall: jupyter-server
+    Found existing installation: jupyter-server 1.4.1
+    Uninstalling jupyter-server-1.4.1:
+      Successfully uninstalled jupyter-server-1.4.1
+  Attempting uninstall: babel
+    Found existing installation: Babel 2.9.0
+    Uninstalling Babel-2.9.0:
+      Successfully uninstalled Babel-2.9.0
+  Attempting uninstall: jupyterlab-server
+    Found existing installation: jupyterlab-server 2.4.0
+    Uninstalling jupyterlab-server-2.4.0:
+      Successfully uninstalled jupyterlab-server-2.4.0
+  Attempting uninstall: jupyterlab
+    Found existing installation: jupyterlab 3.0.14
+    Uninstalling jupyterlab-3.0.14:
+      Successfully uninstalled jupyterlab-3.0.14
+  Attempting uninstall: notebook
+    Found existing installation: 6.3.0
+    Uninstalling notebook-6.3.0:
+      Successfully uninstalled notebook-6.3.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+spyder 4.2.5 requires pyqt5<5.13, which is not installed.
+spyder 4.2.5 requires pyqtwebengine<5.13, which is not installed.
+conda-repo-cli 1.0.4 requires pathlib, which is not installed.
+spyder 4.2.5 requires watchdog<2.0.0,>=0.10.3, but you have watchdog 4.0.2 which is incompatible.
+sphinx 4.0.1 requires Jinja2<3.0,>=2.3, but you have jinja2 3.1.4 which is incompatible.
+sphinx 4.0.1 requires MarkupSafe<2.0, but you have markupsafe 2.1.5 which is incompatible.
+nbclassic 0.2.6 requires jupyter-server~=1.1, but you have jupyter-server 2.14.2 which is incompatible.
+nbclassic 0.2.6 requires notebook<7, but you have notebook 7.2.2 which is incompatible.
+Successfully installed argon2-cffi-23.1.0 argon2-cffi-bindings-21.2.0 arrow-1.3.0 async-lru-2.0.4 babel-2.16.0 fastjsonschema-2.20.0 fqdn-1.5.1 isoduration-20.11.0 jupyter-client-8
+.6.3 jupyter-events-0.10.0 jupyter-lsp-2.2.5 jupyter-server-2.14.2 jupyter-server-terminals-0.5.3 jupyterlab-4.2.6 jupyterlab-server-2.27.3 mistune-3.0.2 nbconvert-7.16.4 nbformat-
+5.10.4 notebook-7.2.2 notebook-shim-0.2.4 python-json-logger-2.0.7 pywinpty-2.0.14 pyzmq-26.2.0 rfc3986-validator-0.1.1 send2trash-1.8.3 tinycss2-1.4.0 tornado-6.4.1 types-python-dateutil-2.9.0.20241003 uri-template-1.3.0 webcolors-24.8.0
+
+C:\Users\admin\Desktop\kedaxunfei>
+
